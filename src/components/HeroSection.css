@@ -1,0 +1,144 @@
+.hero-section {
+  height: 70svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+  justify-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.hero-text {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-text {
+    text-align: left;
+  }
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1f2937;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 4rem;
+    justify-content: flex-start;
+  }
+}
+
+.hero-pakistan {
+  width: 100%;
+  margin-top: 8px;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero-pakistan {
+    text-align: left;
+    font-size: 4rem;
+  }
+}
+
+.hero-description {
+  margin-top: 16px;
+  color: #4b5563;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .hero-description {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+  }
+}
+
+.enroll-button {
+  margin-top: 24px;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0070f3;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.enroll-button:hover {
+  background-color: #005cd1;
+}
+
+.hero-images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rocket-image {
+  position: absolute;
+  width: 160px;
+  top: -40px;
+  left: 0;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .rocket-image {
+    width: 200px;
+    top: -20px;
+  }
+}
+
+.main-hero-image {
+  width: 90%;
+  position: relative;
+  object-fit: contain;
+  z-index: 0;
+  left: -20px;
+}
+
+.highlight {
+  position: relative;
+  margin: 0 8px;
+}
+
+.svg-underline {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  width: 100%;
+  height: 22px;
+}
