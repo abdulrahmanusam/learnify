@@ -1,5 +1,6 @@
 import React from 'react';
 import './WhyChooseUs.css';
+import whyChooseUsImage from "./images/ChatGPT Image Jun 25, 2025, 04_15_02 PM.png"
 
 const WhyChooseUs = () => {
   return (
@@ -15,10 +16,10 @@ const WhyChooseUs = () => {
             <a className="learn-more-btn" href="/about-us">Learn More</a>
           </div>
           <div className="right">
-            <img
-              src="/_next/static/media/whychoosingus.c435cce3.svg"
-              alt="Why choosing us"
-            />
+         <img
+  src={whyChooseUsImage}
+  alt="Why choosing us"
+/>
           </div>
         </div>
 

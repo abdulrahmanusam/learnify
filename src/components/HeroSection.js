@@ -1,5 +1,7 @@
 import React from 'react';
 import './HeroSection.css';
+import hero from './images/image.png'
+import rocket from './images/hero-rocket.de3d4890.png'
 
 
 const HeroSection = () => {
@@ -38,8 +40,8 @@ const HeroSection = () => {
 
         {/* Right Side - Images */}
         <div className="hero-images">
-          <img src="/images/hero-rocket.svg" alt="rocket" className="rocket-image" />
-          <img src="" alt="hero" className="main-hero-image" />
+          <img src={rocket} alt="rocket" className="rocket-image" />
+          <img src={hero} alt="hero" className="main-hero-image" />
         </div>
 
       </div>
